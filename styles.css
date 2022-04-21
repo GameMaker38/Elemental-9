@@ -8,3 +8,8 @@ h1 {
 p {
   font: arial, sans-serif;
 }
+#settings {
+  border-radius: 0px;
+  color: black;
+  background-color: aliceblue;
+}
