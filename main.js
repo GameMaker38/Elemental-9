@@ -4,7 +4,7 @@ let length = elements.length;
 document.getElementById("elements").textContent = elements.join(','); 
 document.getElementById("youMade").textContent = `You made ${newElement}!`
 document.getElementById("youHave").textContent = `You have ${length} elements.`;
-function myFunction() {
+function divToggle() {
   var x = document.getElementById("settingsDiv");
   if (x.style.display === "none") {
     x.style.display = "block";
