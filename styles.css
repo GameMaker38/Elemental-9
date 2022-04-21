@@ -1,9 +1,10 @@
 body {
-background-color: white;
+  background-color: white;
+  font-family: monospace;
 }
 h1 {
-font: 30px arial, sans-serif;
+  font: 30px arial, sans-serif;
 }
 p {
-font: arial, sans-serif;
+  font: arial, sans-serif;
 }
