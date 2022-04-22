@@ -12,3 +12,6 @@ function divToggle() {
     x.style.display = "none";
   }
 }
+function elementAdd() {
+  elements.push(newElement);
+}
