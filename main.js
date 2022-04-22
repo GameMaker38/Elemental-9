@@ -1,3 +1,5 @@
+let color = black
+let backgroundColor = 1
 let newElement = 'test';
 let elements = ['Air', 'Earth', 'Fire', 'Water'];
 let length = elements.length;
@@ -14,4 +16,13 @@ function divToggle() {
 }
 function elementAdd() {
   elements.push(newElement);
+}
+function lightMode() {
+  if (backgroundColor = 1) {
+    var backgroundColor = 0
+    document.getElementById("settingsDiv").style.backgroundColor = "black";
+  } else {
+    var backgroundColor = 1
+    document.getElementById("settingsDiv").style.backgroundColor = "white";
+  }
 }
