@@ -21,10 +21,12 @@ function elementAdd() {
 }
 function lightMode() {
   if (backgroundColor = 1) {
-    var backgroundColor = 0
+    let backgroundColor = 0
     document.getElementById("body").style.backgroundColor = "black";
+    document.getElementById("settingsDiv").style.backgroundColor = "black";
   } else {
-    var backgroundColor = 1
+    let backgroundColor = 1
     document.getElementById("body").style.backgroundColor = "white";
+    document.getElementById("settingsDiv").style.backgroundColor = "white";
   }
 }
