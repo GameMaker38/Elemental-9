@@ -24,9 +24,11 @@ function lightMode() {
     let backgroundColor = 0
     document.getElementById("body").style.backgroundColor = "black";
     document.getElementById("settingsDiv").style.backgroundColor = "black";
+    document.getElementById("lightmode").textContent = `Light Mode: Off`;
   } else {
     let backgroundColor = 1
     document.getElementById("body").style.backgroundColor = "white";
     document.getElementById("settingsDiv").style.backgroundColor = "white";
+    document.getElementById("lightmode").textContent = `Light Mode: On`;
   }
 }
