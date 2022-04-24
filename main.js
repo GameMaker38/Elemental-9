@@ -20,9 +20,9 @@ function elementAdd() {
 function lightMode() {
   if (backgroundColor = 1) {
     var backgroundColor = 0
-    document.getElementById("settingsDiv").style.backgroundColor = "black";
+    document.getElementById("body").style.backgroundColor = "black";
   } else {
     var backgroundColor = 1
-    document.getElementById("settingsDiv").style.backgroundColor = "white";
+    document.getElementById("body").style.backgroundColor = "white";
   }
 }
