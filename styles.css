@@ -16,3 +16,6 @@ p {
 #settingsDiv {
   background-color: mintcream;
 }
+.inline-block {
+  display: inline-block;
+}
