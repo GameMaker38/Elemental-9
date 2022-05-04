@@ -1,6 +1,7 @@
 let color = black
 let newElement = 'test';
 let elements = ['Air', 'Earth', 'Fire', 'Water'];
+let allElements = ['Air', 'Earth', 'Fire', 'Water'];
 let length = elements.length;
 document.getElementById("elements").textContent = elements.join(','); 
 function makeNewElement() {
@@ -15,6 +16,9 @@ function divToggle() {
     x.style.display = "none";
   }
 }
+function lookIfComboExists(combo) {
+  elements.find();
+}
 function elementAdd() {
   elements.push(newElement);
 }
@@ -26,9 +30,15 @@ function lightMode() {
     document.getElementById("lightmode").textContent = `Light Mode: Off`;
    
   } else {
-    let color = white
-    document.getElementById("body").style.backgroundColor = color;
-    document.getElementById("settingsDiv").style.backgroundColor = color;
-    document.getElementById("lightmode").textContent = `Light Mode: On`;
+      let color = white
+      document.getElementById("body").style.backgroundColor = color;
+      document.getElementById("settingsDiv").style.backgroundColor = color;
+      document.getElementById("lightmode").textContent = `Light Mode: On`;
   }
+}
+function signUp() {
+  
+}
+function logIn() {
+
 }
