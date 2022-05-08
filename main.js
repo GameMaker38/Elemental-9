@@ -1,4 +1,4 @@
-let color = black
+let color = 'black';
 let newElement = 'test';
 let elements = ['Air', 'Earth', 'Fire', 'Water'];
 let allElements = ['Air', 'Earth', 'Fire', 'Water'];
