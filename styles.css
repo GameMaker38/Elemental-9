@@ -1,12 +1,9 @@
 body {
   background-color: white;
-  font-family: monospace;
+  font-family: 'Quicksand', sans-serif;
 }
 h1 {
-  font: 30px arial, sans-serif;
-}
-p {
-  font: arial, sans-serif;
+  font-family: 700px 'Quicksand', sans-serif;
 }
 #settings {
   border-radius: 0px;
