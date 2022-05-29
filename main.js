@@ -3,7 +3,7 @@ let newElement = 'test';
 let elements = ['Air', 'Earth', 'Fire', 'Water'];
 let allElements = ['Air', 'Earth', 'Fire', 'Water'];
 let length = elements.length;
-document.getElementById("elements").textContent = elements.join(','); 
+document.getElementById("elements").textContent = elements.join(', '); 
 function makeNewElement() {
   document.getElementById("youMade").textContent = `You made ${newElement}!`
 }
@@ -20,7 +20,7 @@ function lookIfComboExists(combo) {
   elements.find();
 }
 function elementAdd() {
-  elements.push(newElement);
+  elements.push(var newElement);
 }
 function lightMode() {
   if (color = 1) {
