@@ -26,4 +26,7 @@ button {
 }
 #combinationDiv {
   background-color: #77a4ed;
+  border-color: #3a609e;
+  border-width: 3px;
+  border-radius: 10px;
 }
