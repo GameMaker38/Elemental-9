@@ -24,3 +24,6 @@ h1 {
 button {
   cursor: url("https://raw.githubusercontent.com/GameMaker38/Elemental-9/main/cursor.png?token=GHSAT0AAAAAABTMD34JDFQTCUEEZAY3VFGKYVGAC6Q"), auto;
 }
+#combinationDiv {
+  background-color: #77a4ed;
+}
