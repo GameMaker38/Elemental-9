@@ -10,13 +10,17 @@
   <body id="body">
     <h1>Elemental 9</h1>
     <br>
-    <h3>Elements:</h3>
-    <h4 id="elements"></h4>
+    <div id="elementsDiv">
+      <h3>Elements:</h3>
+      <h4 id="elements"></h4>
+    </div>
     <br>
-    <h4 class="inline-block">Combine elements here:</h4>
-    <h4 contenteditable="true" class="inline-block elementToBeCombined">Element 1</h4>
-    <h4 contenteditable="true" class="inline-block elementToBeCombined">Element 2</h4>
-    <button onclick="makeNewElement()">Combine</button>
+    <div id="combinationDiv">
+      <h4 class="inline-block">Combine elements here:</h4>
+      <h4 contenteditable="true" class="inline-block elementToBeCombined">Element 1</h4>
+      <h4 contenteditable="true" class="inline-block elementToBeCombined">Element 2</h4>
+      <button onclick="makeNewElement()">Combine</button>
+    </div>
     <h4 id="youHave"></h4>
     <h4 id="youMade"></h4>
       <button id="settings" onclick="divToggle()">Settings</button>
