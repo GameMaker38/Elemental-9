@@ -1,7 +1,6 @@
 body {
   background-color: white;
   font-family: 'Quicksand', sans-serif;
-  cursor: url("https://github.com/GameMaker38/Elemental-9/blob/main/cursor.png"), auto;
 }
 h1 {
   font-family: 700px 'Quicksand', sans-serif;
@@ -20,4 +19,8 @@ h1 {
 .elementToBeCombined {
   border-color: black;
   border-style: dashed;
+  border-width: 5px;
+}
+button {
+  cursor: url("https://github.com/GameMaker38/Elemental-9/blob/main/cursor.png"), auto;
 }
