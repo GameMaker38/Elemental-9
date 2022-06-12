@@ -19,7 +19,7 @@ h1 {
 .elementToBeCombined {
   border-color: black;
   border-style: dashed;
-  border-width: 5px;
+  border-width: 2px;
 }
 button {
   cursor: url("https://github.com/GameMaker38/Elemental-9/blob/main/cursor.png"), auto;
