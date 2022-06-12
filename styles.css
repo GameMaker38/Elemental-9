@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #d4e4ff;
   font-family: 'Quicksand', sans-serif;
 }
 h1 {
@@ -23,14 +23,14 @@ h1 {
 }
 button {
   cursor: url("https://raw.githubusercontent.com/GameMaker38/Elemental-9/main/cursor.png?token=GHSAT0AAAAAABTMD34JDFQTCUEEZAY3VFGKYVGAC6Q"), auto;
+  color: white;
+  background-color: #15438f;
+  border-color: white;
 }
 #combinationDiv {
   background-color: #77a4ed;
   border-color: #3a609e;
   border-width: 3px;
   border-radius: 10px;
-  color: white;
-}
-#whiteButton {
   color: white;
 }
