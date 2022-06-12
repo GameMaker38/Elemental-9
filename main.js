@@ -1,3 +1,4 @@
+let newUsername = '1'
 let color = 'black';
 let newElement = 'test';
 let elements = ['Air', 'Earth', 'Fire', 'Water'];
@@ -22,22 +23,9 @@ function lookIfComboExists(combo) {
 function elementAdd() {
   elements.push(var newElement);
 }
-function lightMode() {
-  if (color = 1) {
-    let color = black
-    document.getElementById("body").style.backgroundColor = color;
-    document.getElementById("settingsDiv").style.backgroundColor = color;
-    document.getElementById("lightmode").textContent = `Light Mode: Off`;
-   
-  } else {
-      let color = white
-      document.getElementById("body").style.backgroundColor = color;
-      document.getElementById("settingsDiv").style.backgroundColor = color;
-      document.getElementById("lightmode").textContent = `Light Mode: On`;
-  }
-}
 function signUp() {
-  
+  var newUsername = document.getElementById("signUpUsername");
+  accountUsernames.push(var newUsername);
 }
 function logIn() {
 
