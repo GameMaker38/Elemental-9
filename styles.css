@@ -10,8 +10,6 @@ h1 {
   color: black;
   background-color: aliceblue;
 }
-#settingsDiv {
-  background-color: mintcream;
 }
 .inline-block {
   display: inline-block;
@@ -29,8 +27,12 @@ button {
 }
 #combinationDiv {
   background-color: #77a4ed;
-  border-color: #3a609e;
-  border-width: 3px;
-  border-radius: 10px;
   color: white;
+  border-radius:5px;
+  width: 250px;
 }
+#settingsDiv {
+  background-color: #77a4ed;
+  color: white;
+  border-radius: 5px;
+  width: 250px;
