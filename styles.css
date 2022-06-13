@@ -29,10 +29,13 @@ button {
   background-color: #77a4ed;
   color: white;
   border-radius:5px;
-  width: 250px;
+  width: 300px;
 }
 #settingsDiv {
   background-color: #77a4ed;
   color: white;
   border-radius: 5px;
-  width: 250px;
+  width: 400px;
+}
+#title {
+ font-size: 60px;
