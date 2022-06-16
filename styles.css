@@ -6,12 +6,6 @@ body {
 h1 {
   font-family: 700px 'Quicksand', sans-serif;
 }
-#settings {
-  border-radius: 0px;
-  color: black;
-  background-color: aliceblue;
-}
-}
 .inline-block {
   display: inline-block;
 }
