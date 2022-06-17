@@ -2,6 +2,7 @@ body {
   background-color: #d4e4ff;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
+  color: #00245bab;
 }
 h1 {
   font-family: 700px 'Quicksand', sans-serif;
@@ -13,6 +14,7 @@ h1 {
   border-color: #3a609e;
   border-style: dashed;
   border-width: 2px;
+  width: fit-content;
 }
 button {
   cursor: url("https://raw.githubusercontent.com/GameMaker38/Elemental-9/main/cursor.png?token=GHSAT0AAAAAABTMD34JDFQTCUEEZAY3VFGKYVGAC6Q"), auto;
@@ -34,7 +36,11 @@ button {
 }
 #title {
  font-size: 60px;
+ color: #001330ab;
 }
 div {
   margin: auto;
+}
+a {
+  color:#00317ba4
 }
