@@ -6,7 +6,7 @@ let yourElements = ['Air', 'Earth', 'Fire', 'Water'];
 // list of all the elements
 let allElements = ['Air', 'Earth', 'Fire', 'Water'];
 // makes the list of elements appear on the screen
-document.getElementById("elements").textContent = elements.join(','); 
+document.getElementById("elements").innerHTML = yourElements.join(', '); 
 // gives you an element when you make an existing combo
 function makeNewElement() {
   document.getElementById("youMade").textContent = `You made ${newElement}!`;
